@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #e5e7eb;
+  background-color: #020617;
+  background-image: url("images/robot-left.jpg"), url("images/robot-right.png");
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 300px 100%, 300px 100%;
+  background-attachment: fixed;
+  padding-left: 320px;
+  padding-right: 320px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 15px;
+  background: linear-gradient(to right, #0f172a, #14213d);
+  border-bottom: 2px solid #00cfff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #cbd5e1;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px 30px;
+}
+
+.hero-box {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 40px 30px;
+  max-width: 760px;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.45);
+}
+
+.hero-box h2 {
+  margin-top: 0;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.hero-box p {
+  line-height: 1.8;
+  color: #e2e8f0;
+}
+
+.card {
+  max-width: 900px;
+  margin: 20px auto;
+  background: rgba(15, 23, 42, 0.92);
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+}
+
+.card h2 {
+  color: #00cfff;
+  margin-top: 0;
+}
+
+.card p,
+.card li {
+  line-height: 1.8;
+  color: #f1f5f9;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.project-box {
+  background: rgba(51, 65, 85, 0.55);
+  border-left: 4px solid #00cfff;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.project-box h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 22px;
+  background-color: #00cfff;
+  color: #02111b;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #38e0ff;
+}
+
+footer {
+  text-align: center;
+  padding: 18px;
+  margin-top: 30px;
+  background: #0f172a;
+  color: #cbd5e1;
+  border-top: 1px solid #00cfff;
+}
